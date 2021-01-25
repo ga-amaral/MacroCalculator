@@ -8,8 +8,8 @@
         public Function()
         {
         }
-        public Function(string name, int height, double weight, int age, bool gender, bool goal, double factor)
-            : base(name, height, weight, age, gender, goal, factor)
+        public Function(int height, double weight, int age, bool gender, bool goal, double factor)
+            : base(height, weight, age, gender, goal, factor)
         {
         }
         public void Values02()

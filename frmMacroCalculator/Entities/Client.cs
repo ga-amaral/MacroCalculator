@@ -24,9 +24,8 @@ namespace frmMacroCalculator.Entities
         public Client()
         {
         }
-        public Client(string name, int height, double weight, int age, bool gender, bool goal, double factor)
+        public Client(int height, double weight, int age, bool gender, bool goal, double factor)
         {
-            Name = name;
             Height = height;
             Weight = weight;
             Age = age;

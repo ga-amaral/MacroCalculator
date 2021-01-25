@@ -16,6 +16,10 @@ namespace frmMacroCalculator
         public frmMacroCalculator()
         {
             InitializeComponent();
+
+            rbtnMale.Checked = true;
+            rbtnLose.Checked = true;
+            cmbActivity.SelectedIndex = 0;
         }
 
         public void Calc01()
@@ -152,7 +156,6 @@ namespace frmMacroCalculator
         private void btnAbout_Click(object sender, EventArgs e)
         {
             frmAbout frm = new frmAbout();
-
             frm.Show();
         }
     }
